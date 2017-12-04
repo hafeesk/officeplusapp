@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include officeplus *.css
+recursive-include officeplus *.csv
+recursive-include officeplus *.html
+recursive-include officeplus *.ico
+recursive-include officeplus *.js
+recursive-include officeplus *.json
+recursive-include officeplus *.md
+recursive-include officeplus *.png
+recursive-include officeplus *.py
+recursive-include officeplus *.svg
+recursive-include officeplus *.txt
+recursive-exclude officeplus *.pyc
