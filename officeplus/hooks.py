@@ -16,10 +16,10 @@ app_license = "NIG Software"
 
 # include js, css files in header of desk.html
 app_include_css = "/assets/officeplus/css/officeplus_web.css"
-# app_include_js = "/assets/officeplus/js/officeplus.js"
+app_include_js = "/assets/officeplus/js/officeplus.js"
 
 # include js, css files in header of web template
-web_include_css = "/assets/officeplus/css/officeplus_desk.css"
+# web_include_css = "/assets/officeplus/css/officeplus_desk.min.css"
 # web_include_js = "/assets/officeplus/js/officeplus.js"
 
 website_context = {
@@ -124,6 +124,9 @@ website_context = {
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "officeplus.event.get_events"
 # }
+
+
+email_brand_image = "assets/officeplus/images/bg_image.png"
 
 
 default_mail_footer = """
