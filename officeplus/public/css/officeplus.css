@@ -1,4 +1,4 @@
 
 .dropdown-help, .footer-powered{
-	display: none;	
+	display: none !important;
 }
