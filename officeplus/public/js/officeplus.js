@@ -2,8 +2,8 @@
 
 
 $(document).ready(function(){
-
-	$('.navbar-home').html('<img class="erpnext-icon" src="/assets/officeplus/images/officeplus.svg" />');
+	var image_name = "/assets/logo/" + window.location.hostname + '.png';
+	$('.navbar-home').html('<img class="erpnext-icon" src="' + image_name  +  '"/>');
 
 });
 

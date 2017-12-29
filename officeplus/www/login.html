@@ -12,7 +12,8 @@
 		border: none;
 		box-shadow: none;
 		border-radius: none;
-		margin-top: 65px;
+		margin: 0px;
+		margin-top: 50px;
 	}
 	.page-card .btn, .login-content .btn {
 		margin-top: 10px;
@@ -37,7 +38,6 @@
 
 	.navbar{
 		border: none;
-
 	}
 	.pg-boder{
 		border: solid 1px #ebeff2;
@@ -45,6 +45,15 @@
 	}
 	.page-card .page-card-head .indicator{
 		font-size: 16px;
+	}
+	.form-horizontal img{			 
+        display: block;
+	    margin: 0 auto;
+	    margin-bottom: 15px;
+	}
+	
+	.form-footer{
+		margin-top: 5px;
 	}
 
 </style>
@@ -67,6 +76,7 @@
 			<section class='for-login'>
 				<div class="login-content page-card">
 					<form class="form-login form-horizontal" role="form">
+
 						<div class="page-card-head">
 							<span class="indicator blue" data-text="{{ _("Sign In") }}"></span>
 						</div>
@@ -206,6 +216,18 @@
 
 {% block script %}
 	<script>{% include "templates/includes/login/login.js" %}</script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+			//  <img src="/assets/officeplus/images/loginpg-2.png"/> 
+			var image_name = "/assets/logo/" + window.location.hostname + '.png';
+			$("<img src='" + image_name + "'"  + "/>")
+			.css({width: "40px", height: "40px"})
+			.insertBefore(".page-card-head");
+
+		});
+
+	</script>
 {% endblock %}
 
 {% block sidebar %}{% endblock %}
