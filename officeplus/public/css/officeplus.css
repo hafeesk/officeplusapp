@@ -47,7 +47,7 @@ body {
 }
 
 .nav-pills > li > a {
-    background: #dbe2ea!important;
+    background: #dbe2ea;
 }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
