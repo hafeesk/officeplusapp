@@ -46,6 +46,10 @@ body {
     color: #92959e!important;
 }
 
+.nav-pills > li > a {
+    background: #dbe2ea!important;
+}
+
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
     color: #3c414c!important;
     background-color: #f5f7fa!important;
