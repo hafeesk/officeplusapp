@@ -4,9 +4,15 @@
 <style>
 	{% include "templates/includes/login/login.css" %}
 	
+	.hero-and-content {
+		background-color: #36414c;
+
+	}
+
 	.page-container {
 		max-width: none; 
 	}
+
 	.page-card {
 		max-width: 500px;
 		border: none;
@@ -16,12 +22,14 @@
 		margin-top: 50px;
 		background-color: inherit;
 	}
+
 	.page-card .btn, .login-content .btn {
 		margin-top: 10px;
 	}
+
 	.page-card .page-card-head {
 		border-bottom: none;
-		text-align: center;
+		text-align: right;
 	}
 	 
 	.img_cls img{
@@ -30,9 +38,12 @@
 		border-top-left-radius: 5px;
     	border-bottom-left-radius: 5px;
 	}
-	.page-content.without-sidebar{
-		padding-top: 0px;
+
+	.page_content {
+    padding-bottom: 50px;
+    padding-top: 80px;
 	}
+	
 	.page_content{
 		padding-bottom: 0px;
 	}
@@ -40,17 +51,22 @@
 	.navbar{
 		border: none;
 	}
+
 	.pg-boder{
 		border: solid 1px #ebeff2;
 		border-radius: 5px;
+		background: #fff;
 	}
+
 	.page-card .page-card-head .indicator{
 		font-size: 16px;
 	}
+
 	.form-horizontal img{			 
         display: block;
-	    margin: 0 auto;
+	    /*margin: 0 auto;*/
 	    margin-bottom: 15px;
+	    float: left;
 	}
 	
 	.form-footer{
@@ -70,7 +86,8 @@
 	<div class="row">
 		<div class="col-md-7">
 			<div class="img_cls">
-				<img src="/assets/officeplus/images/loginpg-2.png"/> 				
+				<!--<img src="/assets/officeplus/images/loginpg-2.png"/> 	-->
+				<img src="https://www.officeplus.com.ng/app-images/office-plus-banner-main.png"/> 			
 			</div>
 		</div>
 		<div class="col-md-5"> 
