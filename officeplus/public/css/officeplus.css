@@ -1,6 +1,20 @@
+.layout-side-section .sidebar-menu > li > a {
+    display: inline-block;
+    color: #f5f7fa!important;
+}
+
+.media-content-wrapper .small a b {
+    color: #f5f7fa!important;
+}
+
 
 .dropdown-help, .footer-powered{
-	display: none !important;
+  display: none !important;
+}
+
+
+.form-inner-toolbar {
+    border-radius: 20px;
 }
 
 
@@ -132,5 +146,3 @@ body {
 #navbar-search:focus {
   font: normal normal bold 16px/normal Arial, Helvetica, sans-serif!important;
 }
-
-
