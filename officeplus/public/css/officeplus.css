@@ -49,9 +49,14 @@ body[data-route="pos"] .pos-list-row.active {
     background-color: #000c19!important;
 }
 
-a.grey, .control-value a, .data-row a {
+.pos a.grey, .pos .control-value a, .pos .data-row a {
     text-decoration: none;
-    color: #fff;
+    color: #fff!important;
+}
+
+a.list-id {
+    font-weight: bold;
+    color: #6c7680!important;
 }
 
 a.grey:hover, .sidebar-section a:hover, .control-value a:hover, .data-row a:hover, a.grey:focus, .sidebar-section a:focus, .control-value a:focus, .data-row a:focus {
