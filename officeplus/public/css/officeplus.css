@@ -45,6 +45,10 @@
 }
 
 /*============================ END CUSTOM FORM CSS ==============================================*/
+a.grey, .control-value a, .data-row a {
+    text-decoration: none;
+    color: #fff;
+}
 
 .listview-main-section .page-form {
   -webkit-border-radius: 30px;
