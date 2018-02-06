@@ -45,6 +45,11 @@
 }
 
 /*============================ END CUSTOM FORM CSS ==============================================*/
+.page-content.without-sidebar {
+    padding-top: 30px;
+    color: #8D99A6;
+}
+
 .pos a.grey, .pos .control-value a, .pos .data-row a {
     text-decoration: none;
     color: #fff!important;
