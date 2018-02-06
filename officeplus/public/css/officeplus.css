@@ -45,6 +45,10 @@
 }
 
 /*============================ END CUSTOM FORM CSS ==============================================*/
+body[data-route="pos"] .pos-list-row.active {
+    background-color: #000c19!important;
+}
+
 a.grey, .control-value a, .data-row a {
     text-decoration: none;
     color: #fff;
