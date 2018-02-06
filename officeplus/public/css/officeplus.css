@@ -45,6 +45,15 @@
 }
 
 /*============================ END CUSTOM FORM CSS ==============================================*/
+.pos a.grey, .pos .control-value a, .pos .data-row a {
+    text-decoration: none;
+    color: #fff!important;
+}
+
+.timeline-items .timeline-item b {
+  color: #fff !important;
+}
+
 body[data-route="pos"] .pos-list-row.active {
     background-color: #000c19!important;
 }
