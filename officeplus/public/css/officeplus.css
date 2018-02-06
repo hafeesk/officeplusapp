@@ -50,6 +50,11 @@ a.grey, .control-value a, .data-row a {
     color: #fff;
 }
 
+a.grey:hover, .sidebar-section a:hover, .control-value a:hover, .data-row a:hover, a.grey:focus, .sidebar-section a:focus, .control-value a:focus, .data-row a:focus {
+    text-decoration: underline;
+    color: #cdaa1c;
+}
+
 .listview-main-section .page-form {
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
