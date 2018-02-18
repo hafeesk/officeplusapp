@@ -1,5 +1,10 @@
 /*============================ BEGIN CUSTOM FORM CSS ==============================================*/
 
+.open > .dropdown-menu {
+    display: block;
+    background: #000c19;
+}
+
 .form-white .md-form label {
   color: #fff; 
 }
